@@ -7,10 +7,10 @@ browser sessions.  (In my use case, I needed ids that were unique for the life o
 # How to use it
 * First, include the Permutron.js file in your page.
 * "New" up a Permutron object.
-* Permutron takes 3 arguments, only the first one is required
+* Permutron takes 3 arguments, **only the first one is required**
     * maxIdLength - the max number of characters you want the id to reach.
-    * isFixed - if you always want your id to be the lenght you specified as maxIdLength, this should be true.  If set to false, the ids will start as 1 character and work up to your maxIdLength.  It defaults to false.
-    * charset - the list of characters you want to use as the pool of characters for the generator.  It defaults to [a-zA-Z].
+    * isFixed - if you always want your id to be the length you specified as maxIdLength, this should be true.  If set to false, the ids will start as 1 character and work up to your maxIdLength.  **It defaults to false.**
+    * charset - the list of characters you want to use as the pool of characters for the generator.  **It defaults to [a-zA-Z].**
 * As you need ids, call "next()"
 * You can also access the total ids possible with the configuration you provided by calling "maxIdsPossible()"
 * Your Permutron object will set "depletedAvailableIds" to true when it has exhausted the possible permutations.
