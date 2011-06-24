@@ -1,0 +1,50 @@
+.button {
+     width: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-input {
+     width: 20px;
+     padding-left: 10px;
+}
+
+body {
+     font-family: Tahoma, Arial;
+      font-size: 9pt;
+}
+
+td {
+     padding: 5px 5px 5px 5px;
+}
+
+.label {
+     font-weight: bold;
+      text-align: left;
+    vertical-align: top;
+}
+
+.value {
+     text-align: right;
+}
+
+#results {
+     font-size: 28pt;
+      color: dimgray;
+    font-family: Courier, Courier New
+}
+
+.tbl-results {
+     min-width: 375px;
+}
+
+#charSet {
+    width:400px;
+    padding-bottom: 3px;
+}
+
+div {
+     padding-bottom:5px;
+}

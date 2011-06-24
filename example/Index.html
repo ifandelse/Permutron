@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Permutron Interactive Example</title>
+    <script type="text/javascript" language="JavaScript" src="Permutron.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../lib/jquery-1.5.2.js"></script>
+    <script type="text/javascript" language="JavaScript" src="main.js"></script>
+</head>
+<body>
+    <div>
+        Character Set:
+        <input type="text" id="charSet" class="" value="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+    </div>
+    <div>
+        Maximum length of ID:
+        <input type="text" id="charLimit" class="text-input" />
+    </div>
+    <div>
+        <input type="button" onclick="window.doIt()" value="Start Generating IDs!" class="button">
+    </div>
+    <table class="tbl-results">
+        <tr>
+            <td class="label">Total possible IDs:</td>
+            <td class="value"><span id="total" /></td>
+        </tr>
+        <tr>
+            <td class="label">Current ID Count:</td>
+            <td class="value"><span id="count" /></td>
+        </tr>
+        <tr>
+            <td class="label">Generated ID:</td>
+            <td class="value"><span id="results" /></td></td>
+        </tr>
+    </table>
+</body>
+</html>
